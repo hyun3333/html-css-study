@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+        @font-face { /* 서체 만든거*/
+            font-family: 'CookieRun';
+            src: url(./fonts/CookieRun\ Regular.ttf);
+        }
+
+        div {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .font1 {
+            font-family: serif; /* 바탕체 계열*/
+        }
+        .font2 {
+            font-family: sans-serif; /* 고딕체 계열*/
+        }
+        .font3 {
+            font-family: monospace; /* 모노스페이스 계열 : 가로폭이 동등한 글꼴 계열*/
+        }
+        .font4 {
+            font-family: cursive; /* 필기체 계열*/
+        }
+        .font5 {
+            font-family: fantasy; /* 화려한 계열*/
+        }
+        .font6 {
+            font-family: 'Jua', sans-serif; /* 구글 폰트에서 가져온것*/
+        }
+        h1 {/* 폰트 불러오기에는 2개 이상(대체폰트) 지정해줘야 한다*/
+            /* font-family: 'CookieRun', cursive;*/
+            /* font-size: 30px;
+            font-weight: bold;
+            font-style: oblique;
+            line-height: 1.4em;  */
+
+            /*단축 속성 사용 시 font-size와 font-family는 필수로 지정해야 한다.*/
+            /*font: 스타일 두께 크기 / 줄높이 글꼴 순이다.*/
+            font: oblique bold 30px / 1.4 'CookieRun', sans-serif;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="font1">Hello World!</div>
+    <div class="font2">Hello World!</div>
+    <div class="font3">Hello World!</div>
+    <div class="font4">Hello World!</div>
+    <div class="font5">Hello World!</div>
+    <div class="font6">또잉</div>
+
+    <h1>용감한 쿠키가 달립니다~</h1>
+
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+@import url('../../common.css');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    background: #666;
+    color: #333;
+}
+#wrapper {
+    width: 800px;
+    background: #123456;
+    margin: 0 auto;
+}
+
+#wrapper h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 217, 0);
+    padding: 25px;
+    text-indent: 10px;
+}
+
+#wrapper h1 strong {
+    font-family: 'Jua', sans-serif;
+    font-size: 120px;
+    color: #fff;
+}
+#wrapper h1 span {
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+}
+#wrapper h1 em {
+    font-family: 'Jua', sans-serif;
+    font-size: 75px;
+    color: rgb(211, 211, 211);
+}
+.container {
+    width: 800px;
+}
+.container .menu {
+    background: lightgray;
+    width: 200px;
+    height: 600px;
+    float: left;
+    text-decoration-line: underline;
+}
+.container .menu li {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.container .menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+}
+.container .content {
+    background: #fff;
+    height: 600px;
+}
+.container .content h2 {
+    padding-left: 200px;
+    background: rgb(146, 13, 7);
+    color: #ee0;
+    line-height: 60px;
+    margin-left: 15px;
+    height: 60px;
+    font-size: 30px;
+    font-family: '궁서체';
+}
+.container .content p {
+    padding-top: 20px;
+    padding-left: 220px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+footer {
+    height: 50px;
+    background: rgb(128, 128, 128);
+    line-height: 50px;
+    padding-left: 20px;
+    color: black;
+}

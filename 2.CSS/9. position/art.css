@@ -1,0 +1,144 @@
+@import url(../../common.css);
+
+#wrapper {
+    background: rgba(211, 211, 211, 0.548);
+    height: 1500px;
+}
+header {
+    background: orange;
+    width: 1300px;
+    margin: 0 auto;
+    height: 200px;
+    font-size: 1.0em;
+    position: relative;
+    text-align: center;
+}
+header h1 {
+    font-size: 130px;
+    color: white;
+    font-weight: bold;
+}
+header h1 span {
+    font-size: 20px;
+    width: 800px;
+    position: absolute;
+    bottom: 30px;
+    right: 270px;
+}
+header h2 {
+    width: 1300px;
+    height: 20px;
+    margin: 0 auto;
+    background: lightgray;
+    position: absolute;
+    bottom: 0px;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+.container .side-menu {
+    background: white;
+    float: left;
+    height: 1200px;
+    font-size: 30px;
+    font-weight: 550;
+    
+}
+.container .side-menu h3 {
+    background: rgb(146, 13, 7);
+    color: #fff;
+    width: 300px;
+    padding: 25px;
+}
+.container .side-menu ul li{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    text-decoration-line: underline;
+}
+.container .side-menu ul li:hover{
+    border-bottom: 3px dashed #666;
+}
+.container .main-content {
+    float: left;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+.container .main-content .art-piece h4 {
+    font-size: 25px;
+    background: #345678;
+    padding: 15px;
+    color: white;
+}
+.container .main-content .art-piece .artist{
+    font-size: 15;
+    padding: 15px;
+}
+.container .main-content .art-piece .detail {
+    font-size: 15;
+    padding: 15px;
+}
+.container .banner{
+    background: white;
+    width: 270px;
+    height: 1200px;
+    padding-top: 30px;
+    padding-left: 20px;
+    float: right;
+    font-size: 25px;
+    color: gray;
+}
+.container .banner .all {
+    margin-right: 55px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    
+}
+.container .banner .love {
+    display: block;
+    margin: 20px 0;
+    margin-right: 70px;
+    text-decoration-line: underline;
+    color: orange;
+    bottom: 0;
+}
+.container .banner strong {
+    font-weight: bold;
+    color: black;
+}
+.container .banner .link {
+    display: block;
+    margin: 30px 0;
+    color: black;
+    font-size: 15px;
+}
+.container .banner .link li {
+    margin-bottom: 50px;
+
+}
+.container .banner .link a {
+    margin-right: 70px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+.container .banner .link span {
+    float: left;
+}
+footer address {
+    color: white;
+    width: 1300px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    background: #345678;
+    text-align: center;
+}
+footer address a {
+    text-decoration-line: underline;
+
+}
